@@ -1,0 +1,104 @@
+.login{
+   /* border: 2px solid rgb(95, 63, 4); */
+   height: 400px;
+   width: 500px;
+   padding: 10px;
+   margin-left: 400px;
+   border-radius: 9px;
+   background-color: rgb(230, 207, 165);
+   margin-top: 40px;
+   box-shadow: 2px 4px 10px black;
+}
+.login h3{
+    color: rgb(9, 9, 88);
+}
+/* body{
+    background-image: url(LoginBackground.jpeg);
+    background-size: cover;
+} */
+input{
+    margin-top: 10px;
+    border: 1.5px solid black;
+    border-radius: 4px;
+    width: 200px;
+   
+}
+body{
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(39, 29, 186) 1%, rgb(80, 80, 148) 60%, rgb(112, 95, 56) 100%);
+} */
+  background-color: rgb(54, 84, 127);
+}
+.subm input{
+    background-color: cornflowerblue;
+    color:orange;
+    border: 0;
+    border-radius: 3px;
+    transition: all;
+    transition-duration: 0.4s;
+    margin-left:220px;
+    width: 90px;
+    height: 30px;
+    margin-top: 30px;
+    font-size: larger;
+    animation-name: tam;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    box-shadow: 2px 3px 5px black;
+
+}
+.subm :hover{
+    transform: scale(1.2);
+    /* rotate: 10deg; */
+    
+}
+@keyframes tam{
+    20%, 50% , 80%, to{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-18px);
+    }
+    65%{
+        transform: translateY(-13px);
+    }
+    85%{
+        transform: translateY(-7px);
+    }
+    
+}
+h1{
+    color: rgb(252, 165, 5);
+}
+.subcontainer a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(17, 17, 77);
+    margin-left: 330px;
+}
+image{
+    transition: all ease-in-out 2s;
+}
+image:hover{
+    rotate: 360;
+    border: 2px solid black;
+    transform: scale(1.1);
+}
+
+.img{
+    margin-left: 200px;
+    transition: all ease-in-out 0.8s;
+}
+.img:hover{
+    rotate: 10deg;
+    /* transform: rotate(360deg); */
+    /* transform: rotateX(360); */
+}
+
+.subcontainer{
+    transition: all ease-in-out 1s;
+}
+.subcontainer:hover{
+    transform: scale(1.1);
+
+}
